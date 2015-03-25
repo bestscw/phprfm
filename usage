@@ -1,0 +1,9 @@
+远程批量执行shell命令实例
+	/usr/local/php/bin/php /data/app/bin/phpdo/remote_ssh.php "df -h"
+
+远程批量同步文件实例
+	/usr/local/php/bin/php /data/app/bin/phpdo/file_put.php /data/app/bin/phpdo/config/server.ini
+
+远程批量获取文件实例
+
+	/usr/local/php/bin/php /data/app/bin/phpdo/file_get.php	/data/app/bin/phpdo/config/server.ini
